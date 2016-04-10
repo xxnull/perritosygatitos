@@ -1,0 +1,20 @@
+.header{
+	
+	color: white;
+	padding:10px;
+
+}
+
+.stars{
+
+}
+
+.stars li{
+	display: block;
+	padding:20px;
+	margin:1px;
+	float: left;
+	height: 100%;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
