@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
-    "start": "webpack-dev-server",
+    "start": "node node_modules/.bin/webpack-dev-server --content-base app",
     "bundle": "cp src/index.html dist/ & webpack -p ./dist/bundle.js"
   },
   "repository": {
@@ -34,6 +34,7 @@
     "babel-preset-es2015": "6.5.0",
     "babel-preset-stage-1": "6.5.0",
     "css-loader": "0.23.1",
+    "elasticsearch": "^11.0.0",
     "file-loader": "0.8.5",
     "json-loader": "0.5.4",
     "node-libs-browser": "1.0.0",
